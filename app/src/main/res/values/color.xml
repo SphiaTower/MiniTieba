@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">@android:color/background_light</color>
+
+    <color name="widget_title_background">@android:color/background_light</color>
+    <color name="widget_title_text">@android:color/holo_blue_dark</color>
+    <color name="user_span_background">@android:color/background_light</color>
+    <color name="reply_username">#000066</color>
+    <color name="reply_id">#888</color>
+    <color name="background_dark_blue">#222299</color>
+    <color name="fresh_dark_green">#22AA11</color>
+    <color name="toolbar_background">#CC888888</color>
+    <color name="blue_primary">#1565C0</color>
+
+    <color name="blue_primary_dark">#0D47A1</color>
+    <color name="blue_secondary">#2196F3</color>
+
+    <color name="reply_button_tint">#ccc</color>
+</resources>

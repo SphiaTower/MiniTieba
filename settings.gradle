@@ -1,0 +1,2 @@
+include ':app', ':AutoPagerRecyclerManager'
+project(':AutoPagerRecyclerManager').projectDir = new File("C:/Users/Voyager/IdeaProjects/AutoPagerRecyclerManager/lib")

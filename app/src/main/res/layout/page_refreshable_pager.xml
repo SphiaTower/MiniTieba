@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mainToolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+
+            style="@style/Toolbar"
+            app:theme="@style/Toolbar"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            app:layout_collapseMode="pin" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/flRecyclerContainer"
+        android:layout_height="fill_parent"></FrameLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabBoardPageNewPost"
+        android:layout_width="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        app:borderWidth="0dp"
+        android:onClick="onClickElevate"
+        android:src="@drawable/ic_vertical_align_bottom_white_24dp"
+        android:layout_gravity="bottom|right"
+        app:fabSize="normal" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MiniTieba</string>
+
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pref_debug_title">Debug</string>
+    <string name="pref_summary_auto_pager">debug AutoPagerManager</string>
+    <string name="pref_title_auto_pager">AutoPagerManager</string>
+    <string name="pref_summary_auto_adapter">debug AutoPagerAdapter</string>
+    <string name="pref_title_auto_adapter">AutoPagerAdapter</string>
+    <string name="pref_summary_minitieba">debug MiniTieba</string>
+    <string name="pref_title_minitieba">MiniTieba</string>
+    <string name="pref_key_auto_pager">pref_key_auto_pager</string>
+    <string name="pref_key_auto_adapter">pref_key_auto_adapter</string>
+    <string name="pref_key_minitieba">pref_key_minitieba</string>
+    <string name="pref_key_pager_zone">auto_pager_zone</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_debug_title"
+        android:key="pref_key_debug_settings">
+        <CheckBoxPreference
+            android:key="@string/pref_key_auto_pager"
+            android:summary="@string/pref_summary_auto_pager"
+            android:title="@string/pref_title_auto_pager"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="@string/pref_key_auto_adapter"
+            android:summary="@string/pref_summary_auto_adapter"
+            android:title="@string/pref_title_auto_adapter"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="@string/pref_key_minitieba"
+            android:summary="@string/pref_summary_minitieba"
+            android:title="@string/pref_title_minitieba"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="general"
+        android:key="pref_key_general">
+        <EditTextPreference
+            android:key="@string/pref_key_pager_zone"
+            android:title="auto_pager_zone"
+            android:defaultValue="3"
+            android:selectAllOnFocus="true"
+            android:inputType="number"
+            android:singleLine="true"
+            android:maxLines="1" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

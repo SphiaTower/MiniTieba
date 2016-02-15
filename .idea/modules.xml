@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AutoPagerRecyclerManager/lib/AutoPagerRecyclerManager.iml" filepath="$PROJECT_DIR$/../AutoPagerRecyclerManager/lib/AutoPagerRecyclerManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniTieba.iml" filepath="$PROJECT_DIR$/MiniTieba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
